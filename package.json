@@ -1,0 +1,7 @@
+{
+  "name": "rematch-storage",
+  "version": "1.5.16",
+  "author": "jsupot",
+  "main": "src/index.js",
+  "license": "ISC"
+}
