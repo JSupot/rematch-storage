@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["babel-preset-c3tian"]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "babel-preset-c3",
+          {
+            "env": {
+              "modules": "commonjs"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}
