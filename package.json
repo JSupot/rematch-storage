@@ -1,5 +1,5 @@
 {
-  "name": "compoent-pc",
+  "name": "rematch-storage",
   "version": "0.1.0",
   "scripts": {
     "clean": "rm -rf dist/*",
@@ -82,7 +82,5 @@
     "react": "16.4.1",
     "react-dom": "16.4.1",
     "react-test-renderer": "^16.6.3"
-  },
-  "readme": "ERROR: No README data found!",
-  "_id": "compoent-pc@0.1.0"
+  }
 }
