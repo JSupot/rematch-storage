@@ -13,9 +13,9 @@
     "major": "npm version major -m 'Upgrade version to %s '",
     "minor": "npm version minor -m 'Upgrade version to %s '",
     "patch": "npm version patch -m 'Upgrade version to %s'",
-    "x": "npm run changelog && npm run cz && npm run major",
-    "y": "npm run changelog && npm run cz && npm run minor",
-    "z": "npm run changelog && npm run cz && npm run patch"
+    "x": "npm run major",
+    "y": "npm run minor",
+    "z": "npm run patch"
   },
   "main": "src/index.js",
   "sideEffects": false,
