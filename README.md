@@ -34,6 +34,21 @@ const countModel = {
     useSession: true,
     useLocal: true,
 };
+
+
+init
+
+import storagePlugin from 'rematch-storage';
+
+const store = init({
+    ...
+    
+    models,
+    plugins: [storagePlugin],
+    
+    ...
+    
+});
 ```
 
 - useSession: 将值同步到sessionStorage中
