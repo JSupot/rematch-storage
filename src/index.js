@@ -23,9 +23,9 @@ const StoragePlugin = {
     if (useSession === true || useLocal === true) {
       // 使用storage的值进行初始化, sessionStorage的优先级高于LocalStorage
       const storageType = useSession ? 'sessionStorage' : 'localStorage';
-      model.state = getStorageByKey(storageKey, storageType) || model.state;
 
-      if (testStorage(window.sessionStorage)) {
+      if (testStorage(window[storageType])) {
+        model.state = getStorageByKey(storageKey, storageType) || model.state;
         Object.keys(reducers).forEach((modelReducer) => {
           const action = isListener(modelReducer) ? modelReducer : `${name}/${modelReducer}`;
           modelReducers[action] = model.reducers[modelReducer];
